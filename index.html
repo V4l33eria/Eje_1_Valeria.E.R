@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -167,8 +168,8 @@ Mi objetivo es aplicar los conocimientos adquiridos en Tecnologías de la Inform
                         <div class="portfolio-info">
                             <h4>Primer practica</h4>
                             <p>Se uso HTML por primera vez.</p>
-                            <a href="./Projects/Proyects 1/index.html" target="_blank" title="Ver demo"><i class="fas fa-external-link-alt"></i></a>
-                            <a href="#" target="_blank" title="Código en GitHub"><i class="fab fa-github"></i></a>
+                            <a href="https://v4l33eria.github.io/Proyects-1/" target="_blank" title="Ver demo"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="https://github.com/V4l33eria/Proyects-1" target="_blank" title="Código en GitHub"><i class="fab fa-github"></i></a>
                         </div>
                     </div>
                     <div class="portfolio-item animate-on-scroll">
@@ -179,8 +180,8 @@ Mi objetivo es aplicar los conocimientos adquiridos en Tecnologías de la Inform
                         <div class="portfolio-info">
                             <h4>Pagina usando plantilla boostrap</h4>
                             <p>Plantillas Boostrap, HTML, CSS, JS</p>
-                            <a href="./Projects/Proyects 2/index.html" target="_blank" title="Ver demo"><i class="fas fa-external-link-alt"></i></a>
-                            <a href="#" target="_blank" title="Código en GitHub"><i class="fab fa-github"></i></a>
+                            <a href="https://v4l33eria.github.io/Proyects-2/" target="_blank" title="Ver demo"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="https://github.com/V4l33eria/Proyects-2" target="_blank" title="Código en GitHub"><i class="fab fa-github"></i></a>
                         </div>
                     </div>
                     <div class="portfolio-item animate-on-scroll">
@@ -271,6 +272,14 @@ Mi objetivo es aplicar los conocimientos adquiridos en Tecnologías de la Inform
                                 <p>+52 33 2786 0504</p>
                             </div>
                         </div>
+                        <div class="whatsapp-contact">
+                            <a href="https://wa.me/523327860504?text=Hola%20Valeria,%20me%20gustaría%20contactarte%20para%20un%20proyecto" 
+                               target="_blank" 
+                               class="whatsapp-btn animate-on-scroll">
+                                <i class="fab fa-whatsapp"></i>
+                                <span>Contactar por WhatsApp</span>
+                            </a>
+                        </div>
                     </div>
                     <form class="contact-form animate-on-scroll">
                         <input name="name" placeholder="Tu Nombre" required>
@@ -299,5 +308,56 @@ Mi objetivo es aplicar los conocimientos adquiridos en Tecnologías de la Inform
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script src="script.js"></script>
+    <style>
+        /* Estilos para el botón de WhatsApp */
+        .whatsapp-contact {
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .whatsapp-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            background: linear-gradient(135deg, #25D366, #128C7E);
+            color: white;
+            padding: 15px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            box-shadow: 0 8px 25px rgba(37, 211, 102, 0.3);
+            border: none;
+            cursor: pointer;
+        }
+
+        .whatsapp-btn:hover {
+            background: linear-gradient(135deg, #128C7E, #25D366);
+            transform: translateY(-3px);
+            box-shadow: 0 12px 35px rgba(37, 211, 102, 0.4);
+            color: white;
+        }
+
+        .whatsapp-btn i {
+            font-size: 24px;
+        }
+
+        .whatsapp-btn:active {
+            transform: translateY(-1px);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .whatsapp-btn {
+                padding: 12px 24px;
+                font-size: 14px;
+            }
+
+            .whatsapp-btn i {
+                font-size: 20px;
+            }
+        }
+    </style>
 </body>
 </html>
