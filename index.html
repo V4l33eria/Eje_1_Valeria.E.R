@@ -58,6 +58,7 @@
             <div class="container">
                 <h2>Hola, soy Valeria y soy<br><span id="typed-text"></span></h2>
                 <p></p>
+                <a class="boton-cv" href="archivos/cv.pdf" download>Descargar CV</a>
             </div>
         </section>
 
@@ -358,6 +359,26 @@ Mi objetivo es aplicar los conocimientos adquiridos en Tecnologías de la Inform
                 font-size: 20px;
             }
         }
+
+.boton-cv {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: var(--text-color-light);
+    background-color: var(--color-primary-dark);
+    text-decoration: none;
+    border: 2px solid var(--color-light-accent);
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.boton-cv:hover {
+    background-color: var(--color-accent);
+    color: var(--color-secondary-dark);
+}
+
+
     </style>
 </body>
 </html>
